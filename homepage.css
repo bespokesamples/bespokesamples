@@ -24,6 +24,14 @@
 .products_list li a:hover {
     text-decoration: underline;
 }
+@media screen and (max-width: 750px) {
+    .products_list {
+        line-height: 1.2;
+    }
+    .products_list li a{
+        font-size: 25px;
+    }
+  }
 .socials {
     position: fixed;
     bottom: 0;
