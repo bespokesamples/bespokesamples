@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body{
+    background-color: #f8f7ed;
+    margin: 0;
+    padding: 0;
+    font-family: "Syne", sans-serif;
+    cursor: url('media/arrow.png'), url('media/dot.png'), auto;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a img {
+  height: 80px;
+  content:url("media/bespokelogo.png");
+  transition: 1s;
+
+}
+
+.navbar li a img:hover {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: 1s;
+}
+
+.undraggable {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
