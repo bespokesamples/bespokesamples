@@ -11,23 +11,28 @@
 }
 
 .products_list {
+    list-style-type: none;
     text-align: center;
     margin: 0;
+	padding:0;
     line-height: 1.9;
+
 }
-.products_list a {
+.products_list li a {
     text-decoration: none;
     font-size: 50px;
     color: #55198b;
-    text-shadow: rgba(124,65,179,0.69) 0px 0px 25px;
-}
-.products_list a:hover {
-    text-decoration: underline;
+    text-shadow: rgba(124,65,179,0.69) 0px 0px 39px;
+	margin: 0;
+	padding:0;
 }
 @media screen and (max-width: 800px) {
     .products_list {line-height: 1.4;}
-	.products_list a {font-size: 40px;}
+	.products_list li a {font-size: 40px;}
   }
+.products_list li a:hover {
+    text-decoration: underline;
+}
 .socials {
     position: fixed;
     bottom: 0;
