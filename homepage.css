@@ -9,9 +9,11 @@
     background-size: cover; 
 
 }
+.list-container {
+text-align: center;
+}
 .products_list {
     list-style-type: none;
-    text-align: center;
     margin: 0;
     line-height: 1.9;
 }
@@ -19,7 +21,7 @@
     text-decoration: none;
     font-size: 50px;
     color: #55198b;
-    text-shadow: rgba(124,65,179,0.69) 0px 0px 39px;
+    text-shadow: rgba(124,65,179,0.69) 0px 0px 25px;
 }
 .products_list li a:hover {
     text-decoration: underline;
