@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 800px) {
     .products_list {line-height: 1.4;}
-	.products_list li a {font-size: 40px;}
+	.products_list li a {font-size: 32px;}
   }
 .products_list li a:hover {
     text-decoration: underline;
