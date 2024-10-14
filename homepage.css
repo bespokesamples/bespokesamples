@@ -36,7 +36,7 @@
 @media screen and (max-width: 900px) {
   .announcement iframe{
     width: 80vw;
-    height: 350px;
+    height: 250px;
   }
 
   .announcement-button h1{
@@ -80,14 +80,9 @@
   .big-sub-heading {
     font-size: 20px;
   }
-  .announcement iframe{
-    width: 550px;
-    height: 250px;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
+  .announcement iframe {
+    height: 300px;
   }
-
   .announcement-button h1{
     width: 80%;
     font-size: 20px;
