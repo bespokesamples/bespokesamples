@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/*
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a img {
+  height: 80px;
+  content:url("media/bespokelogo.png");
+  transition: 1s;
+
+}
+
+.navbar li a img:hover {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  transition: 1s;
+}
+*/
+.undraggable {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+
+footer {
+  background-color: #12151c;
+  width: 100%;
+  padding: 100px;
+  color: white;
+  margin: 0;
+}
+.bespokesamples{
+  padding: 50px 0;
+  margin: 0;
+  float: right;
+  text-align: right;
+  font-size: 50px;
+}
+.email-list {
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+  float: none;
+  display: block;  
+}
+
+
+#gumroad-follow-form-embed{
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box; 
+  min-width: 0px; 
+  max-width: 100%; 
+  vertical-align: bottom;
+}
+#gumroad-follow-form-embed:root{
+  color-scheme: light dark; 
+}
+#gumroad-follow-form-embed-button{
+  margin: 0px; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  min-width: 0px; 
+  max-width: 100%; 
+  vertical-align: bottom; 
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#gumroad-follow-form-embed-button:root{
+  color-scheme: light dark; 
+}
+#gumroad-follow-form-embed-input{
+  margin: 0px; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  min-width: 0px;
+  width: 500px; 
+  vertical-align: bottom; 
+  border: none;
+  border-radius: 5px;
+}
+#gumroad-follow-form-embed-input:root{
+  color-scheme: light dark; 
+}
+
+
+@media screen and (max-width: 1300px) {
+  .bespokesamples{
+    padding: 0;
+    float: none;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+  }
+  footer {
+    padding: 30px 30px 100px 30px;
+  }
+  .email-list {
+    padding: 0;
+    margin: 0px 0px 10px 0px;
+    float: none;
+    display: block;  
+  }
+  #gumroad-follow-form-embed-input{
+    width: 300px; 
+  }
+  #gumroad-follow-form-embed-button{
+    width: 100px;
+  }
+}

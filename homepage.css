@@ -1,0 +1,331 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("media/home_background_2.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+.announcement a{
+  text-decoration: none;
+  color: inherit;
+}
+.announcement-button h1{
+  text-align: center;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px auto 30px auto;
+  background-color: black;
+  color: white;
+  transition: 0.2s ease;
+}
+.announcement-button h1:hover {
+  background-color: rgb(58, 152, 58);
+}
+.announcement iframe{
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 900px) {
+  .announcement iframe{
+    width: 80vw;
+    height: 250px;
+  }
+
+  .announcement-button h1{
+    width: 80vw;
+    font-size: 20px;
+  }
+
+}
+.big-heading {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: -25px;
+  padding: 0;
+  font-family: "Courgette", cursive;
+
+  font-weight: 400;
+  font-style: normal;
+}
+.big-sub-heading {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 30px;
+
+}
+
+@media screen and (max-width: 900px) {
+  .big-heading {
+    font-size: 60px;
+  }
+  .big-sub-heading {
+    font-size: 20px;
+  }
+}
+@media screen and (max-height: 900px) {
+  .big-heading {
+    font-size: 60px;
+  }
+  .big-sub-heading {
+    font-size: 20px;
+  }
+  .announcement iframe {
+    height: 300px;
+  }
+  .announcement-button h1{
+    width: 80%;
+    font-size: 20px;
+  }
+}
+.products_list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+	padding:0;
+    line-height: 1.9;
+
+}
+.products_list li a {
+    text-decoration: none;
+    font-size: 50px;
+    color: #55198b;
+    text-shadow: rgba(124,65,179,0.69) 0px 0px 39px;
+	margin: 0;
+	padding:0;
+}
+@media screen and (max-width: 800px) {
+    .products_list {line-height: 1.4;}
+	.products_list li a {font-size: 32px;}
+  }
+.products_list li a:hover {
+    text-decoration: underline;
+}
+.socials {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 30;
+}
+
+
+/*thanks to w3 schools for the modal window code*/
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+    background-color: transparent; /* bg color */
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+    box-sizing: border-box;
+  background-color: #f8f7ed;
+  margin: auto;
+  padding: 30px 100px 50px 100px;
+  font-size: 40px;
+  width: 100%;
+    height: 100%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    cursor: pointer;
+    transition: transform 0.7s ease, top 0.5s ease;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+.close:hover{
+    transform: rotate(180deg);
+    transition: transform 0.7s ease, top 0.5s ease;
+}
+@media screen and (max-width: 800px) {
+    .modal-content {
+        font-size: 25px;
+        padding: 30px 50px 50px 50px;
+    }
+  }
+
+.modal-content img{
+    width: 100%; 
+    max-width: 1600px;
+    -webkit-box-shadow:0px 0px 173px 6px rgba(45,252,190,0.06);
+-moz-box-shadow: 0px 0px 173px 6px rgba(45,252,190,0.06);
+box-shadow: 0px 0px 173px 6px rgba(45,252,190,0.06);
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.triple-column {
+  float: left;
+  width: 33.33%;
+  margin: 0;
+  padding: 60px;
+
+}
+@media screen and (max-width: 1000px) {
+  .triple-column {
+    padding: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .triple-column {
+    width: 100%;
+  }
+}
+
+
+.triple-column p, .triple-column h2 {
+  margin: 0;
+}
+.triple-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.bottom p{
+  margin: auto; 
+  padding: 30px 0px 10px 0px;
+  color: white;
+}
+.bottom h1{font-size: 28px; margin: auto; padding: auto; color: white;}
+
+.bottom {
+  background-color: #323949;
+  padding: 0px;
+}
+.bottom-heading {
+  font-size: 50px; 
+  text-align: center; 
+  padding-top: 40px;
+  color: white;
+  margin: 0;
+}
+
+
+
+
+.card {
+  background-color: transparent;
+  margin: auto;
+}
+.subcard{padding: 10px; display: none;}
+.card img{width: 100%; border: 2px solid gray; border-radius: 10px; opacity: 1; transition: 0.2s;}
+.card img:hover{
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.price{
+  color: rgb(249, 255, 162);
+  font-size: 40px;
+  float: right;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1000px) {
+  .bottom {
+    padding: 30px;
+  }
+  .subcard {
+    display:block;
+  }
+  .bottom-heading {padding-bottom: 20px;}
+  .bottom h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .price {
+    font-size: 60px;
+  }
+  .bottom p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iframe{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}

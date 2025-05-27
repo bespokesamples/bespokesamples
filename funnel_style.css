@@ -1,0 +1,176 @@
+.funnel{
+    padding: 5px 100px 100px 100px;
+        text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .funnel{
+    padding: 5px 0px 0px 0px;
+}
+}
+.funnel_header{
+    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top calc(100% - 20px) left calc(100% - 10px),
+                     top calc(100% - 20px) right calc(100% - 10px),
+                     bottom calc(100% - 20px) left calc(100% - 10px),
+                     bottom calc(100% - 20px) right calc(100% - 10px);
+    padding-top: 40px;
+        text-align: center;
+
+}
+@media screen and (max-width: 1300px) {
+  .funnel_header{
+   background-position: left;
+  }
+}
+
+
+.title{
+    font-size: 85px;
+    margin:10px;
+    text-shadow: rgba(0,0,0,0.36) 0px 0px 56px;
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .title{font-size: 60px;}
+  .subtitle{font-size: 15px;}
+}
+.subtitle{
+    font-size: 20px;
+    text-shadow: rgba(0,0,0,0.36) 0px 0px 70px;
+    margin:0;
+    text-align: center;
+}
+.preview_samples{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.funnel a{
+    text-decoration: none;
+}
+.funnel_buy_button{
+    margin-bottom: 60px;
+    padding: 23px 115px;
+    background-color: rgb(225, 224, 234);
+    border:none;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-box-shadow:0px 0px 137px 21px rgba(28,105,44,0.15);
+    -moz-box-shadow: 0px 0px 137px 21px rgba(28,105,44,0.15);
+    box-shadow: 0px 0px 137px 21px rgba(28,105,44,0.15);
+    transition: 0.5s;
+    text-align: center;
+}
+
+.funnel a button:hover{
+    transform: scale(1.025);
+    transition: 0.5s;
+}
+.funnel img {
+    margin: 0;
+    width: 100%;
+    -webkit-box-shadow:0px 0px 137px 21px rgba(191,203,63,0.15);
+    -moz-box-shadow: 0px 0px 137px 21px rgba(191,203,63,0.15);
+    box-shadow: 0px 0px 137px 21px rgba(191,203,63,0.15);
+}
+
+.card {
+    color: white;
+    padding: 10px;
+  }
+  .card p {
+    color: black;
+    font-size: 20px;
+  }
+  .cards {
+    max-width: 900px;
+    margin-bottom: 50px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .triple-column {
+    float: left;
+    width: 33.33%;
+    margin:0;
+    padding: 40px;
+    border-bottom: 5px solid black;
+    
+  }
+  @media screen and (max-width: 1000px) {
+    .triple-column {
+      padding: 20px;
+    }
+    
+  }
+  @media screen and (min-width: 1300px) {
+    .triple-column h2 {font-size: 60px;}
+
+  }
+  @media screen and (max-width: 800px) {
+    .triple-column {
+      width: 100%;
+    }
+  }
+  
+  
+  .triple-column p, .triple-column h2 {
+    margin: 0;
+  }
+  .triple-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .double-column {
+    float: left;
+    width: 50%;
+    padding: 40px;
+  }
+  
+  /* Clear floats after the columns */
+  .double-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #double-column-2 p {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1300px) {
+    .double-column {
+      width: 100%;
+    }
+    #double-column-1 {padding-bottom: 0;}
+    
+  }
+  @media screen and (min-width: 2200px) {
+    #double-column-2 p {
+      font-size: 40px;
+    }
+  }
+  .double-column iframe{
+    aspect-ratio: 16 / 9;
+  width: 100%;
+  }
+.details{
+  width: 100%;
+  -webkit-box-shadow:0px 0px 116px 35px rgba(168,36,36,0.17);
+-moz-box-shadow: 0px 0px 116px 35px rgba(168,36,36,0.17);
+box-shadow: 0px 0px 116px 35px rgba(168,36,36,0.17);
+  background-color: rgb(213, 150, 150);
+}
+.details h2 {margin-top: 0; text-align: left;}
+.details p {font-size: 20px; text-align: left;}

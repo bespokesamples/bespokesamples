@@ -1,0 +1,341 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&display=swap'); /*Afacad*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap'); /*Source Sans 3*/
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap'); /*Geologica*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); /*Archivo Black*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); /*Cedarville Cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap'); /*Crimson Pro*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap'); /*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+
+/* 
+COLOR SCHEME
+whitish grey: #f0f0f0
+brown: #362b2b
+black: black
+
+/* CSS */
+
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+/*h1 {
+    font-family: 'Geologica', sans-serif;
+    font-size: 50px;
+}*/
+
+
+.mailing-list-form {
+    display: inline-block;
+    text-align: center;
+}
+.mailing-list-input {
+    color: black;
+    border: none;
+    font-family: 'Geologica', sans-serif;
+    margin: 0;
+    height: 40px;
+    padding-left: 10px;
+    width: 30vw;
+}
+.mailing-list-input[type=submit] {
+    height: 42px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin: 0;
+    width: 50px;
+    font-size: 17px;
+}
+.mailing-list-input[type=submit]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #362b2b;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.description-video {
+    width: 50%;
+    margin-bottom: 50px;
+}
+.description-video-label {
+    margin-top: 0px;
+    font-family: 'Geologica', sans-serif; 
+    font-size: 40px;
+    color: black;
+}
+
+.below-header-section {
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 80px;
+    background-color: #9662AA;
+    color: black;
+    text-align: center;
+    margin: 0;
+    
+}
+@media only screen and (max-width: 1000px) {
+    .description-video {
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .below-header-section {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .description-video-label  {
+        font-size: 5vw;
+    }
+}
+.header-section {
+    background-color: blue;
+    position: relative;
+    text-align: center;
+    color: black;
+    background-image: url('media/GranolaBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 50px;
+    overflow: hidden;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+        color: white;
+
+}
+.centered h1 {
+    font-family: "Gasoek One", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+.centered p {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 40px;
+    margin-top: -10px;
+    padding: 0;
+}
+.header-section img {
+    height: 100%;
+    filter: drop-shadow(17px 12px 0px #000000);
+
+
+}
+
+.make-header-link {
+    text-decoration: none;
+    
+}
+#home-above-title {
+    font-family: 'Inter', sans-serif; 
+    font-size: 25px;
+    font-style: normal;
+    display: block;
+}
+
+#home-title {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+    font-size: 170px;
+    margin-top: 0; 
+    margin-bottom: 0;    
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+#home-title:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+    #home-title {
+        font-size: 25vw; 
+    }
+}
+.marquee-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #362b2b;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    color: white;
+    cursor: pointer;
+    z-index: 50;
+    transition: 1s;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    font-size: 50px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.marquee-wrapper:hover {
+    background-color: brown;
+}
+.marquee p {
+    display: inline-block;
+    margin: 6px;
+}
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@media only screen and (max-width: 1000px) {
+    .marquee p {
+        margin: 3px;
+    }
+}
+.welcome {
+    padding: 40px 90px 40px 90px;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.welcome-main-heading {
+    font-family: 'Archivo Black', sans-serif; 
+    color: black;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 90%;
+    margin: 0;
+}
+.welcome-sub-heading {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin: 0;
+}
+.welcome-paragraph {
+    font-family: 'Source Sans 3', sans-serif; 
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.welcome-image {
+    width: 100%;
+    margin: 0;
+}
+.welcome-big-backround-image {
+    background-color: #e38a5d;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+@media only screen and (max-width: 1000px) {
+    .welcome {
+    padding: 40px;
+    }
+    .welcome-big-backround-image {
+    padding-left: 40px;
+    }
+    .welcome-main-heading {
+    font-size: 90px;
+    }
+.welcome-sub-heading {
+    font-size: 30px;
+    }
+.welcome-paragraph {
+    font-size: 21px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .welcome-main-heading {
+        font-size: 70px;
+    }
+}
+.specifications {
+    
+}
+.checkout {
+    text-align: left;
+    padding: 30px;
+    background-color: #362b2b;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.checkout-splitscreen-column {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 50px;
+    color: white;
+}
+.checkout-splitscreen-column img{
+    width: 100%;
+}
+.checkout-splitscreen-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: none;
+}
+
+
+.petal-buy-bottom {
+    width: 100%-20px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.petal-buy-bottom_button {
+    cursor: pointer;
+    text-decoration: none;
+    width: 40%;
+    padding: 30px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    /*-webkit-box-shadow: 10px 5px 173px -14px rgba(255,255,255,0.52);
+-moz-box-shadow: 10px 5px 173px -14px rgba(255,255,255,0.52);
+box-shadow: 10px 5px 173px -14px rgba(255,255,255,0.52);*/
+}
+.petal-buy-bottom_button:hover {
+    text-decoration: underline;
+}
